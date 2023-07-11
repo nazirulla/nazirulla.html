@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.signup{
+		border-radius: 8px;
+		background: #304FFE; 
+		display: flex;
+		padding: 12px 32px;
+		justify-content: center;
+		align-items: center;
+		gap: 8px;
+	}
+    .navbar {
+      
+      color: #fff;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    .logo {
+      width: 125.41px;
+	  height: 50px;
+    }
+
+    .navbar-links {
+      display: flex;
+      margin-left: auto;
+    }
+
+    .navbar-link {
+      margin-right: 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+
+.column {
+  float: right;
+  width: 50%;
+  padding: 5px;
+}
+
+.column-four {
+  width: 50%;
+  float: left;
+  
+}
+.column-four-top {
+
+  padding-bottom: 25px;
+  color: #FFFFFF;
+	font-family: Overpass;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 48px;
+	letter-spacing: -1px;
+  
+}
+
+
+.column-four-right {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  color: #FFFFFF;
+}
+
+.four-right-top {
+	font-family: Overpass;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
+
+	letter-spacing: -0.5px;
+	padding-top: 20px;
+}
+
+.four-right-middle{
+	font-family: Overpass;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	padding-top: 20px
+}
+
+
+.column-left {
+  float: left;
+  width: 50%;
+  padding: 50px;
+}
+.column-left-sized {
+  float: left;
+  width: 400;
+  padding: 50px;
+}
+.colum {
+  float: right;
+  width: 33%;
+  padding: 5px;
+}
+}
+.one-title {
+  display: flex;
+	width: 457px;
+	height: 142px;
+	flex-direction: column;
+	color: #403D39;
+	font-family: Overpass;
+	font-size: 46px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 64px;
+	letter-spacing: -1.5px;
+}
+
+.two-title{
+	display: flex;
+	width: 502px;
+	flex-direction: column;
+	color: #403D39;
+	font-family: Overpass;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 48px;
+	letter-spacing: -1px;
+}
+.one-subtitle {
+  color: #403D39;
+	font-family: Overpass;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 31px;
+	display: flex;
+	width: 457px;
+	height: 96px;
+	flex-direction: column;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.text-container {
+    max-width: 400px;
+    /* Other styles if needed */
+  }
+
+.two{
+	display: flex;
+	padding: 85px 150px;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 8px;
+	align-self: stretch;
+	background-color: #304FFE;
+}
+
+.two-title{
+	display: flex;
+	width: 1136.842px;
+	flex-direction: column;
+	color: #FFF;
+	font-family: Overpass;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 48px;
+	letter-spacing: -1px;
+}
+.four-button{
+	width:50%;
+	display: flex;
+	padding: 10px ;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	color: #FFFFFF;	
+	border-radius: 8px;
+	background: #3EB489;
+}
+
+.maintitle{
+	width: 50%;
+	color: #403D39;
+	font-family: Overpass;
+	font-size: 46px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 64px;
+	letter-spacing: -1.5px;
+}
+
+.register{
+	width: 200px;
+	border-radius: 8px;
+	background: #304FFE; 
+	display: flex;
+	padding: 12px 32px;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+	color:#FFFFFF;
+}
+</style>
+</head>
+<body>
+<nav class="navbar">
+    <div class="logo">
+      <img src="./assets/logo.png" alt="Logo" width="100" height="50">
+    </div>
+    <div class="side-menu-button" onclick="toggleSideMenu()">&#9776;</div>
+    <div class="navbar-links">
+      <div class="signup">Sign Up</div>
+    </div>
+  </nav>
+
+<div class="row">
+  <div class ="column-left">
+  <div class="maintitle">Connect With Certified IT Vendors in minutes.</div>
+  <div class="one-subtitle">Join ConQt today and gain access to an extensive network of vendors, cutting-edge solutions, and streamlined transactions. </div>
+  <div class="register" >Register Now</div>
+  </div>
+  <div class="column">
+
+    <img src="./assets/one.png" alt="Snow" style="width:100%">
+  </div>
+</div>
+<div class="two">
+<div class="two-title">
+Unveiling the Hidden Potential of Your Project with ConQT
+</div>
+<div class="row">
+   <div class="colum">
+    <img src="./assets/two-1.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="colum">
+    <img src="./assets/two-2.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="colum">
+    <img src="./assets/two-3.png" alt="Snow" style="width:100%">
+  </div>
+</div>
+</div>
+<div><img src="./assets/three.png" alt="Snow" style="width:90%"></div>
+<div class="two">
+<div class="row">
+  <div class="column-four" >
+  <div class="column-four-top">Simplify Your IT Project Journey with ConQT: Effortless Project Creation, Vendor Analysis, and Selection</div>
+  <div class="four-button">Sign up now</div>
+  </div>
+  <div class="column-four-right" >
+	<div class="four-right-top">Effortless IT Projects</div>
+	<div class="four-right-middle">At ConQT, we handle much of the process, making it hassle-free for you. Our platform's advanced features, automated processes, and expert guidance ensure that you can sit back and relax while we manage the complexities. Focus on your core business while we take care of the IT project journey.</div>
+	<div class="four-right-middle">Join ConQT today and experience how effortless it can be to create your project, receive vendor quotations, analyze them efficiently, and select the ideal IT vendor. Let us simplify your IT project journey, so you can save valuable time and resources. </div>  
+  </div>
+ </div>
+</div>
+</body>
+</html>
